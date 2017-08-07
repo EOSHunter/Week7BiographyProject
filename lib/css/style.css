@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.introduction {
+  margin-left: 2.8%;
+  margin-right: 2.8%;
+}
+
+.title {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+}
+
+.subtitle {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.banner-image {
+  width: 100%;
+  position: relative;
+  top: -14px;
+}
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.nav > li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  left: 30px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.signature {
+  position: relative;
+  left: 15px;
+  top: -4px;
+}
+
+
+.navbar-gradient {
+  background: linear-gradient(180deg, white, #c1c1c1);
+  position: absolute;
+  left: 0;
+  top: 12px;
+  z-index: -1;
+}
+
+/*======================== HOME BUTTON START ===========================*/
+
+.homebutton {
+  position: relative;
+  left: -13px;
+  top: -6px;
+}
+
+.homebutton img:last-child{
+  display:none;
+}
+
+.homebutton:hover img:first-child{
+    display:none;
+}
+.homebutton:hover img:last-child{
+    display:inline-block;
+}
+
+
+
+/*======================== HOME BUTTON END ===========================*/
+
+
+/*======================== BIOGRAPHY BUTTON START ===========================*/
+
+.biobutton {
+  position: relative;
+  left: -13px;
+  top: -6px;
+}
+
+.biobutton img:last-child{
+  display:none;
+}
+
+.biobutton:hover img:first-child{
+    display:none;
+}
+.biobutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== BIOGRAPHY BUTTON END ===========================*/
+
+
+/*======================== RESUME BUTTON START ===========================*/
+
+.resumebutton {
+  position: relative;
+  left: -23px;
+  top: -6px;
+}
+
+.resumebutton img:last-child{
+  display:none;
+}
+
+.resumebutton:hover img:first-child{
+    display:none;
+}
+.resumebutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== RESUME BUTTON END ===========================*/
+
+
+
+/*======================== CODEPEN BUTTON START ===========================*/
+
+.codepenbutton {
+  position: relative;
+  left: -30px;
+  top: -6px;
+}
+.codepenbutton img:last-child{
+  display:none;
+}
+
+.codepenbutton:hover img:first-child{
+    display:none;
+}
+.codepenbutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== CODEPEN BUTTON END ===========================*/
+
+
+
+/*======================== GALLERY BUTTON ===========================*/
+
+.gallerybutton {
+  position: relative;
+  left: -35px;
+  top: -6px;
+}
+.gallerybutton img:last-child{
+  display:none;
+}
+
+.gallerybutton:hover img:first-child{
+    display:none;
+}
+.gallerybutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== GALLERY BUTTON END ===========================*/
+
+
+
+/*======================== CONTACT BUTTON START ===========================*/
+
+.contactbutton {
+  position: relative;
+  left: -40px;
+  top: -6px;
+}
+.contactbutton img:last-child{
+  display:none;
+}
+
+.contactbutton:hover img:first-child{
+    display:none;
+}
+.contactbutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== CONTACT BUTTON END ===========================*/
+
+
+/*======================== MEDIA QUERY START ===========================*/
+
+@meida screen 
